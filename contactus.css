@@ -1,0 +1,118 @@
+#nav{
+  background:rgb(230, 228, 228);
+    width: 0 auto;
+    height: 70px;
+    width: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    right: 0;
+    overflow: hidden;
+}
+   #nav ul{
+       list-style:none;
+    }
+     #nav ul li {
+         float: right;
+         width: 150px;
+         margin: 3px black;
+         text-align:center;
+         padding: 0px 0px;
+         border:2px black;
+     }
+     #nav ul li:hover{
+         
+         cursor: pointer;
+         color: cyan;
+         padding: 0px 0px;
+         border-bottom: 2px black;
+        }
+     #nav a{
+         color:rgb(46, 44, 44);
+         font-size: 19px;
+     }
+     body{
+         font-family: sans-serif;
+         background: whitesmoke;
+     }
+     
+  h1{
+    color: blueviolet;
+}
+#header1{
+  color: rgb(25, 77, 221);
+  text-decoration-style: wavy;
+  text-align: center;
+  font-size: 30px;
+}
+#header2{
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+#header3{
+  text-align: center;
+  
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  background-color:none;
+}
+body{
+  font-family: sans-serif;
+  margin:3px black;
+  border: 3px   black;
+  margin: 3px;
+
+
+}
+#div2{
+  text-align: center;
+  border:none;
+      border-style:solid;
+      border-color:blue; 
+      
+      cursor: pointer;
+      padding: 5px;
+      margin: 1px;
+      outline: none;
+      height:30px;
+      width: 70px;
+      background: lightblue;
+      background-position-x: 0mm;
+      color: black;
+      font-size: 30px;
+      border-radius: 20px;
+      font-size:large;
+      font-family: serif;
+      font-weight: bolder;
+  
+}
+#about_footer{
+  width:auto;
+  height:200px;
+  background: rgb(90, 89, 89);
+}
+.social_media{
+  float: right;
+  /*padding: 20px;*/
+  
+  /*width: 200px;*/
+  background: transparent;
+  margin-right: 10px;
+  padding-inline-start: 10px;
+  text-decoration: none;
+  border-block-start: 5px;
+  text-align: center;
+  
+
+}
+
+.copyright{
+  text-align: center;
+  color: white;
+}

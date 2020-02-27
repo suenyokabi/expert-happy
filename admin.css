@@ -1,0 +1,123 @@
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10% 10% 10% 25%;
+    background: url(green.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+#red{
+    
+    width: 280px;
+    height: 550px;
+    text-align: center;
+    background: orangered;
+    float: left;
+    padding-bottom: 15px;
+    color: white;
+    border-radius: 4px;
+    
+}
+
+#form{
+    
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    background: white;
+    float: left;
+    padding-bottom: 15px;
+    
+    border-radius: 4px
+
+}
+#username{
+    background: whitesmoke;
+    
+    padding: 8px;
+    margin: 10px;
+    font-size: 1.5em;
+    border: 1px solid black;
+
+}
+/*#fname{
+    background: whitesmoke;
+    padding: 8px;
+    margin: 10px;
+    font-size: 1.5em;
+    border: 1px solid black;
+
+}
+#lname{
+    background: whitesmoke;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 10px;
+    font-size: 1.5em;*/
+
+    
+
+#submit{
+    
+    padding: 2% ;
+    color: white;
+    font-size: 1em;
+    margin: 15px;
+    background: blue;
+    width: 20%;
+    text-align: none;
+    border-radius: 20px;
+    top: 50px;
+    left: 100px;
+    float: left;
+
+
+
+}
+#pass{
+    background: whitesmoke;
+    
+    padding: 8px;
+    margin: 10px;
+    font-size: 1.5em; 
+    border: 1px solid black;  
+}
+
+/*#booking_date{
+    background: whitesmoke;
+    
+    padding: 8px;
+    margin: 10px;
+    font-size: 1.5em;
+    border: 1px solid black;
+}*/
+.footpage{
+    
+        
+    padding: 2% ;
+    color: white;
+    font-size: 1em;
+    margin: 15px;
+    background: blue;
+    width: 20%;
+    text-align: none;
+    border-radius: 20px;
+    top: 50px;
+    left: 100px;
+    float: left;
+
+        
+}
+#red{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    
+}
+.motto{
+   /* text-align: */
+    font-size:20px;
+}

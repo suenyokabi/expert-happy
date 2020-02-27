@@ -1,0 +1,132 @@
+#div1{
+    
+    
+    width: auto;
+    height: 150px;
+    background-color:transparent;
+    
+    padding: 0px;
+    cursor: crosshair;
+    
+    text-size-adjust: none;
+    font-weight: bold;
+    float: inherit;
+}
+#table2{
+   background-color: transparent;
+}
+#nav{
+    background:  rgb(230, 228, 228);
+    height: 70px;
+    width: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    right: 0;
+    overflow: hidden;
+}
+   #nav ul{
+       list-style:none;
+    }
+     #nav ul li {
+         float: right;
+         width: 150px;
+         margin: 3px black;
+         text-align:center;
+         padding: 0px 0px;
+         border:2px black;
+     }
+     #nav ul li:hover{
+         
+         cursor: pointer;
+         color: cyan;
+         padding: 0px 0px;
+         border-bottom: 2px black;
+        }
+     #nav a{
+         color:rgb(46, 44, 44);
+         font-size: 19px;
+     }
+
+
+#header1{
+    color: rgb(25, 77, 221);
+    text-decoration-style: wavy;
+    text-align: center;
+    font-size: 30px;
+    }
+
+body{
+    font-family: sans-serif;
+    margin: 3px;
+    padding: 0px;
+    border:5px black ;
+    background: white;
+}
+h3{
+    color:  rgb(25, 77, 221);
+    text-align: center;
+    text-emphasis:none;
+    text-decoration-style: double;
+}
+#header2{
+    vertical-align: top;
+    text-align: center;
+    text-emphasis: none;
+    
+    color: rgb(248, 17, 17);
+}
+#table1{
+    width: 600px;
+    height: 200px;
+    background:url(sunrise3.png);
+    padding: 5px;
+    margin: 2em;
+    border-top: 5px black;
+    background-repeat: no-repeat;
+    
+    
+}
+#road1{
+    text-decoration-color: blue;
+    color: aliceblue;
+    font-size: 30px;
+}
+i{
+    color: blue;
+    font-size: 15px;
+}
+#sunrise{
+    color: orangered;
+    font-size: 35px;
+    text-align: center;
+
+}
+#welcome{
+    font-size: 25px;
+    color: black
+}
+#about_footer{
+    width:auto;
+    height:200px;
+    background: rgb(90, 89, 89);
+}
+.social_media{
+    float: right;
+    /*padding: 20px;*/
+    
+    /*width: 200px;*/
+    background: transparent;
+    margin-right: 10px;
+    padding-inline-start: 10px;
+    text-decoration: none;
+    border-block-start: 5px;
+    text-align: center;
+    
+
+}
+
+.copyright{
+    text-align: center;
+    color: white;

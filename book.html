@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>book</title>
+    <link rel="stylesheet" href="boook.css">
+</head>
+<body>
+    <div id="red"> 
+        <h1> SunriseHostel</h1><br><br><br>
+        <p class="motto"> your comfort,<br> our pleasure</p>
+    </div>
+    <div id="form"> 
+        <h3> <i> please enter your details here</i></h3>
+        <form action="book.php" method="POST"> 
+                <input type="text" id="reg_no"  name="std_regno" placeholder="Registration number"><br>
+                <input type="name" id="fname"  name="name" placeholder=" firstname"><br>
+                <input type="name" id="fname"  name="lastname" placeholder="lastname"><br>
+                <select name="year_of_study" id="YOS">
+                    <option value="null">select your current year</option>
+                    <option value="1st">1st year</option>
+                    <option value="2nd">2nd year</option>
+                    <option value="3rd">3rd year</option>
+                    <option value="4th">4th year</option>
+                    <option value="5th">5th year</option>
+                    <option value="6th">6th year</option>
+                    <option value="7th">7th year</option>
+                    <option value="8th">8th year</option>
+                </select> <br>
+                <select name="room_number" id="yos">
+                    <option value="null">select a room number</option>
+                    <option value="A01">A01</option>
+                    <option value="A02">A02</option>
+                    <option value="A03">A03</option>
+                    <option value="A04">A04</option>
+                    <option value="A05">A05</option>
+                    <option value="A06">A06</option>
+                    <option value="A07">A07</option>
+                    <option value="A08">A08</option>
+                    <option value="A09">A09</option>
+                    <option value="A10">A10</option>
+                    <option value="B01">B01</option>
+                    <option value="B02">B02</option>
+                    <option value="B03">B03</option>
+                    <option value="B04">B04</option>
+                    <option value="B05">B05</option>
+                    <option value="B06">B06</option>
+                    <option value="B07">B07</option>
+                    <option value="B08">B08</option>
+                    <option value="B09">B09</option>
+                    <option value="B10">B10</option>
+                    <option value="C01">C01</option>
+                    <option value="C02">C02</option>
+                    <option value="C03">C03</option>
+                    <option value="C04">C04</option>
+                    <option value="C05">C05</option>
+                    <option value="C06">C06</option>
+                    <option value="C08">C07</option>
+                    <option value="C08">C08</option>
+                    <option value="C09">C09</option>
+                    <option value="C10">C10</option>
+                </select> <br>
+                <big>Booking date </big><input type="date" id="booking_date" name="date" placeholder="booking date"><br>
+               <big> Gender</big>: female  <input type="radio" name="gender" value="f"> 
+
+               male <input type="radio" name="gender" value="m "> 
+                others<input type="radio" name="gender" value="o"><br><br>
+                click on the <b> submit</b> button below to book a space<br><br>
+                <input type="submit" id="submit" name="submit" placeholder="Book">
+                <div align="center" >
+                        <a href="homepage.html" class="footpage"> back</a>
+                            </div>
+                
+        </form>
+    </div>
+    
+</body>
+</html>

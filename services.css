@@ -1,0 +1,131 @@
+#nav{
+    background:rgb(230, 228, 228);
+    width: 0 auto;
+    height: 70px;
+    width: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    right: 0;
+    overflow: hidden;
+}
+   #nav ul{
+       list-style:none;
+    }
+     #nav ul li {
+         float: right;
+         width: 150px;
+         margin: 3px black;
+         text-align:center;
+         padding: 0px 0px;
+         border:2px black;
+     }
+     #nav ul li:hover{
+         
+         cursor: pointer;
+         color: cyan;
+         padding: 0px 0px;
+         border-bottom: 2px black;
+        }
+     #nav a{
+         color:rgb(46, 44, 44);
+         font-size: 19px;
+     }
+     body{
+         font-family: sans-serif;
+         background: whitesmoke;
+     }
+     #div1{
+    
+    
+        width: auto;
+        height: 150px;
+        background-color:transparent;
+    
+        padding: 3px;
+        cursor: crosshair;
+        color: orangered;
+        text-size-adjust: none;
+        font-weight: bold;
+        float: inherit;
+    }
+    #header1{
+        color: rgb(25, 77, 221);
+        text-decoration-style: wavy;
+        text-align: center;
+        font-size: 30px;
+    }
+    #about_body{
+        width:1340px;
+        background-color: white;
+        height: 450px;
+    }
+    
+    
+    #box{
+        width:170px;
+        height:300px;
+        float: left;
+        padding: 20px;
+        border: 1px;
+        border-color: black;
+        background-color:rgb(252, 249, 249);
+        border-style: solid;
+        margin: 13px;
+    
+        
+    }
+    .boxpic{
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        padding: 10px;
+        /*float aligns in the same line*/
+    
+    }
+    
+   
+    #title{
+        color:orangered;
+        background:transparent;
+        height: 50px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    #description{
+        font-size: 18px;
+        font: outline;
+        font-style: normal;
+    }
+    #box:hover{
+        background-color:transparent;
+        cursor: pointer;
+        
+       
+    }
+    #about_footer{
+        width:auto;
+        height:200px;
+        background: rgb(90, 89, 89);
+    }
+    .social_media{
+        float: right;
+        /*padding: 20px;*/
+        
+        /*width: 200px;*/
+        background: transparent;
+        margin-right: 10px;
+        padding-inline-start: 10px;
+        text-decoration: none;
+        border-block-start: 5px;
+        text-align: center;
+        
+    
+    }
+    
+    .copyright{
+        text-align: center;
+        color: white;
+    }
